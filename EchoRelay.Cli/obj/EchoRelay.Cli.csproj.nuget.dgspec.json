@@ -1,0 +1,452 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Cli\\EchoRelay.Cli.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.API\\EchoRelay.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.API\\EchoRelay.API.csproj",
+        "projectName": "EchoRelay.API",
+        "projectPath": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.API\\EchoRelay.API.csproj",
+        "packagesPath": "C:\\Users\\IzNotBen-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\IzNotBen-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Core\\EchoRelay.Core.csproj": {
+                "projectPath": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Core\\EchoRelay.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "osx-arm64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Cli\\EchoRelay.Cli.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Cli\\EchoRelay.Cli.csproj",
+        "projectName": "EchoRelay.Cli",
+        "projectPath": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Cli\\EchoRelay.Cli.csproj",
+        "packagesPath": "C:\\Users\\IzNotBen-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Cli\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\IzNotBen-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.API\\EchoRelay.API.csproj": {
+                "projectPath": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.API\\EchoRelay.API.csproj"
+              },
+              "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Core\\EchoRelay.Core.csproj": {
+                "projectPath": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Core\\EchoRelay.Core.csproj"
+              },
+              "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Nakama\\EchoRelay.Nakama.csproj": {
+                "projectPath": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Nakama\\EchoRelay.Nakama.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "osx-arm64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Core\\EchoRelay.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Core\\EchoRelay.Core.csproj",
+        "projectName": "EchoRelay.Core",
+        "projectPath": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Core\\EchoRelay.Core.csproj",
+        "packagesPath": "C:\\Users\\IzNotBen-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\IzNotBen-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Iconic.Zlib.Netstandard": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Jitbit.FastCache": {
+              "target": "Package",
+              "version": "[1.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "ZstdSharp.Port": {
+              "target": "Package",
+              "version": "[0.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "osx-arm64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Nakama\\EchoRelay.Nakama.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Nakama\\EchoRelay.Nakama.csproj",
+        "projectName": "EchoRelay.Nakama",
+        "projectPath": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Nakama\\EchoRelay.Nakama.csproj",
+        "packagesPath": "C:\\Users\\IzNotBen-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Nakama\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\IzNotBen-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Core\\EchoRelay.Core.csproj": {
+                "projectPath": "C:\\Users\\IzNotBen-\\Desktop\\relay\\EchoRelay.Core\\EchoRelay.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "osx-arm64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

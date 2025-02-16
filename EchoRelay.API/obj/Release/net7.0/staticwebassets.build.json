@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "S/YMRcMOUAcgXJq8o9JcI/6LZBv2fKKG/InmtXsQDFQ=",
+  "Source": "EchoRelay.API",
+  "BasePath": "_content/EchoRelay.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
